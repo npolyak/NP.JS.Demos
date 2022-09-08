@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/any.proto";
+
+package subscriptions;
+
+message TestTopicMessage
+{
+	string str = 1;
+}
